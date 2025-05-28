@@ -1,0 +1,37 @@
+name: chamcong_365
+description: Personal work attendance and leave management app
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.4.2
+  path: ^1.8.3
+  intl: ^0.19.0
+  shared_preferences: ^2.2.2
+  flutter_local_notifications: ^17.0.0
+  permission_handler: ^11.0.1
+  table_calendar: ^3.0.9
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # Uncomment the following line to add assets
+  # assets:
+  #   - images/
+  
+  # Add custom app icon
+  # flutter_icons:
+  #   android: true
+  #   ios: true
+  #   image_path: "assets/icon/app_icon.png"
